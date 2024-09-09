@@ -1,0 +1,33 @@
+/* CodeInputform.css */
+
+.code-input-form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(14, 13, 13);
+}
+
+.split {
+    display: flex;
+    height: 100%;
+}
+
+.editor-container {
+    padding-right: 10px;
+    height: 100%;
+    box-shadow: 0px 4px 6px rgba(14, 166, 226, 0.94);
+}
+
+.form-container {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.form-container .MuiFormControl-root, 
+.form-container .MuiButton-root {
+    margin-bottom: 20px;
+}

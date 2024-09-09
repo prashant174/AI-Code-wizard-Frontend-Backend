@@ -1,0 +1,106 @@
+.acc{
+    color: blue;
+    
+    
+}
+
+
+
+/* #googleBtn{
+    align-self: auto;
+    background-color: rgba(40, 242, 245, 0.988);
+    border: 1px solid red;
+} */
+
+
+/* #QuizDiv{
+  /* background-color: black; */
+  /* height: 100rem; 
+} */
+
+.quiz-container {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  .quiz-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quiz-item {
+    margin-bottom: 2rem;
+  }
+  
+  .question-number {
+    /* background-color: #3f51b5; */
+    color: rgb(36, 231, 136);
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .question-text {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 5px ;
+    color: rgb(36, 231, 136);
+  }
+  
+  .quiz-option {
+    background-color: #292a3e;
+    color: #fff;
+    border: 1px solid #3f51b5;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .quiz-option:hover {
+    background-color: #3f51b5;
+    cursor: pointer;
+  }
+
+ 
+.quizGenerateInput{
+  background-color: green;
+  color: red;
+}
+
+
+/* ******************************************************* */
+
+#resultDisplay {
+  border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    white-space: pre-wrap; /* This ensures that long lines will wrap */
+    word-wrap: break-word; /* This handles word wrapping */
+    background-color: #f9f9f9; /* Light background color for better readability */
+    border-radius: 5px; /* Rounded corners for a better look */
+    max-height: 300px; /* Set a maximum height */
+    overflow-y: auto; /* Adds vertical scrollbar if content exceeds max height */
+    overflow-x: hidden; /* Prevents horizontal scrollbar */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for better code display */
+    box-shadow: 5px 4px 5px rgba(16, 216, 176, 0.8); /* Subtle shadow for better visual separation */
+min-height: 250px;
+}
+
+#model-content{
+  border: 1px solid red;
+  width: 400px;
+  margin: auto;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+#closeBtn{
+  /* color: black; */
+  background-color: red;
+}

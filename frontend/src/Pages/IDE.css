@@ -1,0 +1,127 @@
+/* 
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+    cursor: col-resize;
+}
+
+.editor, .output {
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.output{
+   background-color: aquamarine;
+   height: 85vh;
+} */
+
+
+
+/* ******************************** */
+
+
+
+.ide-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.problem-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow: auto;
+    border-right: 1px solid #ddd;
+}
+
+.ide-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.split {
+    display: flex;
+    height: calc(100% - 40px); /* Adjust for header height */
+}
+
+.split-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+
+.output-container {
+    height: 100%;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.output-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    overflow: auto;
+    height: calc(100% - 40px); /* Adjust height to fit within the container */
+    margin: 0;
+}
+
+.language-select {
+    margin-bottom: 10px;
+}
+
+.gutter {
+    background-color: #373232;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+}
+
+.gutter.gutter-vertical {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+    cursor: row-resize;
+}
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+    cursor: col-resize;
+}
